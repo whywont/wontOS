@@ -48,7 +48,7 @@ void clear_screen() {
     }
 
     // Set hardware cursor to the top-left corner.
-    // (You would need to implement the following function according to your system.)
+
     set_cursor(0, 0);
 }
 
@@ -119,14 +119,8 @@ void print(char* message) {
     print_at(message, -1, -1); // Print at current cursor location
 }
 
-
-
-
-
 // This is a simple kernel_main function
 void kernel_main() {
-
-
     clear_screen();
     print("WontOS");
 }
